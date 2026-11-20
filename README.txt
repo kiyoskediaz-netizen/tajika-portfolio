@@ -1,37 +1,45 @@
-KIYOSKE PERSONAL PORTFOLIO
-===========================
+KIYOSKE PERSONAL PORTFOLIO — ENHANCED EDITION
+================================================
 
-Files
------
-index.html  - Main portfolio page
-style.css   - Website styling and responsive layout
-script.js   - Mobile navigation interaction
+CONTENTS
+--------
+index.html              Main portfolio page
+style.css               Responsive design and styling
+script.js               Mobile navigation and certificate preview
+KiyoProfile.jpg         Your profile photo
+KiyoLogo.jpg            Your personal logo (also used as the browser icon)
+1stCertificateKiyo.jpg First certificate image
+2ndCertificateKiyo.jpg Second certificate image
 
-HOW TO VIEW
------------
-1. Extract the ZIP file.
-2. Open the extracted folder.
-3. Double-click index.html to preview the website in your browser.
-4. For editing, open the folder in Visual Studio Code.
+PREVIEW LOCALLY
+---------------
+1. Extract this ZIP file.
+2. Keep all files together in the same folder.
+3. Double-click index.html to preview in a browser.
+4. Internet is needed for the optional Google Fonts; the site still works with
+   system fonts if the connection is unavailable.
 
-HOW TO PUBLISH USING GITHUB PAGES
----------------------------------
-1. Sign in to https://github.com or create a GitHub account.
-2. Click the + button, then choose "New repository".
-3. Give it a name such as kiyoske-portfolio (without spaces; for example: kiyoske-portfolio is not valid, use kiyoske-portfolio).
-4. Set the repository to Public, then create it.
-5. Upload index.html, style.css, and script.js (and README.txt if you want).
-   Upload the FILES inside this folder, not the ZIP file itself.
-6. Open the repository's Settings > Pages.
-7. Under "Build and deployment", select "Deploy from a branch".
-8. Choose branch "main" and folder "/ (root)", then click Save.
-9. Wait a short time. Refresh the Pages screen; GitHub will show your live website URL.
-10. Open that URL to check it, then submit the link to your professor.
+PUBLISH THE UPDATED VERSION TO YOUR EXISTING GITHUB REPOSITORY
+--------------------------------------------------------------
+Your existing repository is:
+https://github.com/kiyoskediaz-netizen/tajika-portfolio
+
+1. Open the repository on GitHub.
+2. Choose Add file > Upload files.
+3. Open this extracted folder and select all files:
+   index.html, style.css, script.js, KiyoProfile.jpg, KiyoLogo.jpg,
+   1stCertificateKiyo.jpg, 2ndCertificateKiyo.jpg, and README.txt.
+4. Drag the files into the GitHub upload area. Upload the individual files,
+   not the ZIP archive.
+5. Choose Commit changes.
+6. GitHub Pages will redeploy the site automatically. Wait a few minutes,
+   then refresh your live portfolio.
 
 IMPORTANT
 ---------
-- The contact email is set to kiyoskediaz@gmail.com.
-- The profile uses a simple KT initials design because no profile photo file was available in this working session. You can replace the initials avatar with your own photo later.
-- The certificate information is included as text. Add your original certificate image if you want it displayed.
-- No unconfirmed academic projects or awards are presented as completed work.
-- Update any details if your instructor requires a specific format.
+- Keep the image filenames exactly as shown. The HTML refers to these exact names.
+- Upload the image files to the repository root, alongside index.html.
+- Your email remains kiyoskediaz@gmail.com.
+- The portfolio describes Java, Python, MySQL, and HTML as technologies you
+  have explored while learning; it does not claim professional mastery.
+- The certificates are displayed as images and can be clicked to enlarge.
